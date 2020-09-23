@@ -14,7 +14,7 @@ def get_bot_reccommend(response):
     elif response in ["windy", "freezing", "cloudy", "bad", "stormy", "hail"]:
         return choice(bot_reccommend_edgy)
     else:
-        return "For that, i dont have a playlist reccommendation. Youre on your own, sorry."
+        return "For that, i dont have a playlist reccommendation. You're on your own, sorry."
 # this is the bot intro, outside the loop so it doesnt repeat
 print("This program's going to reccommend music based off the weather, to meet all your vibin needs!")
 print("It's got a reccommendation for almost anything, from sunny to freezing.")
